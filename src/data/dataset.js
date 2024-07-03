@@ -1,4 +1,4 @@
-export default [ //volviendo a subir
+export const characters = [
   {
     "id": "daphne-bridgerton",
     "name": "Daphne Bridgerton",
@@ -357,7 +357,7 @@ export default [ //volviendo a subir
       "serie": "En la serie, Genevieve Delacroix es un personaje bien desarrollado que juega un papel crucial en la trama, no solo como modista, sino también como confidente y fuente de rumores. Su relación romántica con Benedict Bridgerton añade una capa adicional de drama."
     },
     "extraInfo": {
-     /* "imageSource": "hthttps://i.postimg.cc/gcVQ7S7Y/22.jpg"*/
+     
   }
 },
   {

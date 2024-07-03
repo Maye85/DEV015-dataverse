@@ -1,62 +1,27 @@
-import { renderItems } from './view.js';
-import data from './data/dataset.js';
+import { filterCharactersByFamily, sortCharactersByName, getCharacters } from './dataFunctions.js';
+import { renderCharacters } from './view.js';
 
-// Obtener el contenedor donde se mostrarán los elementos
-const itemsContainer = document.getElementById('root');
+document.addEventListener('DOMContentLoaded', () => {
+  const familyFilter = document.getElementById('family-filter');
+  const sortFilter = document.getElementById('alfabetico');
+  const clearButton = document.querySelector('[data-testid="button-clear"]');
 
-// Llamar a renderItems y agregar el resultado al contenedor
-const renderedItems = renderItems(data);
-itemsContainer.appendChild(renderedItems);
+  // Renderizar todos los personajes inicialmente
+  renderCharacters(getCharacters());
 
-import { filterData, sortData, computeStats } from './dataFunctions.js';
-
-const characters = [
-    
-  { name: 'Daphne Bridgerton', family: 'bridgerton' },
-  { name: 'Simon Basset', family: 'basset' },
-  { name: 'Penelope Featherington', family: 'featherington' },
-  { name: 'Violet Bridgerton', family: 'bridgerton' },
-  { name: 'Lady Danbury', family: 'danbury' },
-  { name: 'Queen Charlotte', family: 'real' },
-  { name: 'Will Mondrich', family: 'mondrich' },
-  { name: 'Marina Thompson', family: 'featherington' },
-  { name: 'Colin Bridgerton', family: 'bridgerton' },
-  { name: 'Lord Crane', family: 'crane' },
-  { name: 'Cressida Cowper', family: 'cowper' },
-  { name: 'Henry Granville', family: 'granville' },
-  { name: 'Lady Whistledown', family: 'notiene' }
-];
-
-const familyFilter = document.getElementById('family-filter');
-const characterList = document.getElementById('character-list');
-
-function updateCharacterList(filteredCharacters) {
-  characterList.innerHTML = '';
-
-  filteredCharacters.forEach(character => {
-    const li = document.createElement('li');
-    li.textContent = character.name;
-
-    characterList.appendChild(li);
-    
+  familyFilter.addEventListener('change', () => {
+    const filteredCharacters = filterCharactersByFamily(familyFilter.value);
+    renderCharacters(filteredCharacters);
   });
 
-  if (filteredCharacters.length === 0) {
-    const li = document.createElement('li');
-    li.textContent = 'No characters found';
-    characterList.appendChild(li);
-  
-  }
-}
+  sortFilter.addEventListener('change', () => {
+    const sortedCharacters = sortCharactersByName(sortFilter.value);
+    renderCharacters(sortedCharacters);
+  });
 
-function handleFilterChange() {
-  const selectedFamily = familyFilter.value;
-  const filteredCharacters = filterData(characters, 'family', selectedFamily);
-  updateCharacterList(filteredCharacters);
-}
-
-familyFilter.addEventListener('change', handleFilterChange);
-
-// Inicializar la lista de personajes al cargar la página
-handleFilterChange();
-
+  clearButton.addEventListener('click', () => {
+    familyFilter.value = 'bridgerton';
+    sortFilter.value = 'asc';
+    renderCharacters(getCharacters());
+  });
+});
