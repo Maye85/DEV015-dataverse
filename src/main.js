@@ -1,7 +1,7 @@
 import { filterCharactersByFamily, sortCharactersByName, getCharacters } from './dataFunctions.js';
 import { renderCharacters } from './view.js';
 
-document.addEventListener('DOMContentLoaded', () => {
+function init() {
   const familyFilter = document.getElementById('family-filter');
   const sortFilter = document.getElementById('alfabetico');
   const clearButton = document.querySelector('[data-testid="button-clear"]');
@@ -20,8 +20,14 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   clearButton.addEventListener('click', () => {
-    familyFilter.value = 'bridgerton';
-    sortFilter.value = 'asc';
-    renderCharacters(getCharacters());
+    // Restablecer los filtros
+    familyFilter.value = '';
+    sortFilter.value = '';
+
+    // Renderizar todos los personajes nuevamente sin aplicar filtros adicionales
+    renderCharacters(getCharacters()); // Asegúrate de que getCharacters() devuelva todos los personajes
   });
-});
+}
+
+// Llamar a la función init() cuando el DOM esté completamente cargado
+document.addEventListener('DOMContentLoaded', init);
