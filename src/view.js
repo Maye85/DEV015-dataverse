@@ -1,4 +1,4 @@
-export function renderCharacters(characters) {
+export function renderItems(characters) {
   // Obtener el elemento <ul> con id 'character-list'
   const characterList = document.getElementById('character-list');
   // Limpiar lista antes de renderizar nuevos personajes
@@ -8,6 +8,7 @@ export function renderCharacters(characters) {
   characters.forEach(character => {
     //Se utiliza el método forEach para iterar sobre cada objeto 
     const listItem = document.createElement('li');
+    listItem.classList.add('personajes');
     //Se establece el contenido HTML del elemento <li> utilizando (template literals)
     //Incrustando dinámicamente propiedades del objeto character dentro de la estructura HTML
     listItem.innerHTML = `
