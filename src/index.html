@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Los Bridgerton</h1>
+    <header id="fondti" class="cabecera">
+        <img src="lady_whistledown-sin fondo.png">
+        <h1 id="titulo">Los Bridgerton</h1>
     </header>
     
     <main>
         <section>
-            <h2>Descubre sus más oscuros secretos!</h2>
+            <h2>¡Descubre sus más escandalosos secretos!</h2>
             <form id="filter-form">
                 <label for="family-filter" id="famFilter">Filtrar por:</label>
                 <select id="family-filter" data-testid="select-filter" name="familyFilter">
@@ -35,17 +36,20 @@
                   </select>   
                 <button type="button" data-testid="button-clear">Despejar</button>
             </form>
+           
         </section>
         
         <section id="root">
-            <ul id="character-list">
+            <ul id="character-list" class="listaDeCarac">
                 <!-- Aquí se insertarán los elementos renderizados -->
             </ul>
         </section>
     </main>
     
     <footer>
+        <p>Dev 13</p>
         <p>Lisette Piña - Mayerling Hernandez</p>
+        
     </footer>
     
     <script type="module" src="./main.js"></script>

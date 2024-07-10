@@ -1,5 +1,5 @@
 import { filterCharactersByFamily, sortCharactersByName, getCharacters } from './dataFunctions.js';
-import { renderCharacters } from './view.js';
+import { renderItems } from './view.js';
 
 function init() {
   const familyFilter = document.getElementById('family-filter');
@@ -7,16 +7,16 @@ function init() {
   const clearButton = document.querySelector('[data-testid="button-clear"]');
 
   // Renderizar todos los personajes inicialmente
-  renderCharacters(getCharacters());
+  renderItems(getCharacters());
 
   familyFilter.addEventListener('change', () => {
     const filteredCharacters = filterCharactersByFamily(familyFilter.value);
-    renderCharacters(filteredCharacters);
+    renderItems(filteredCharacters);
   });
 
   sortFilter.addEventListener('change', () => {
     const sortedCharacters = sortCharactersByName(sortFilter.value);
-    renderCharacters(sortedCharacters);
+    renderItems(sortedCharacters);
   });
 
   clearButton.addEventListener('click', () => {
@@ -25,8 +25,9 @@ function init() {
     sortFilter.value = '';
 
     // Renderizar todos los personajes nuevamente sin aplicar filtros adicionales
-    renderCharacters(getCharacters()); // Asegúrate de que getCharacters() devuelva todos los personajes
+    renderItems(getCharacters()); // Asegúrate de que getCharacters() devuelva todos los personajes
   });
+  
 }
 
 // Llamar a la función init() cuando el DOM esté completamente cargado
