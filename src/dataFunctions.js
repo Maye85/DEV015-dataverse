@@ -1,5 +1,4 @@
 import { characters } from './data/dataset.js';
-//de donde viene (family)?
 export function filterCharactersByFamily(family) {
   //usa el metodo "filter" para crear un nuevo arreglo
   //compara la familia del personaje (character.facts.familia) con el valor de family
