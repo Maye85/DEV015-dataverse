@@ -6,19 +6,20 @@ export function filterCharactersByFamily(family) {
 }
 
 export function sortCharactersByName(order) {
-  //crea una copia del arreglo characters para no modificar el original
+  // Crea una copia del arreglo characters para no modificar el original
   const sortedCharacters = [...characters]; 
-  //usa el método sort para ordenar el arreglo copiado.
+  // Usa el método sort para ordenar el arreglo copiado.
   return sortedCharacters.sort((a, b) => {
-    //compara los nombres de dos personajes (a y b) para ordenarlos
+    // Compara los nombres de dos personajes (a y b) para ordenarlos
     if (order === 'asc') {
-      //
+      // Ordena de forma ascendente
+      return a.name.localeCompare(b.name);
     } else if (order === 'des') {
-      //El método localeCompare es una función que compara dos cadenas de texto
+      // Ordena de forma descendente
       return b.name.localeCompare(a.name);
     }
-    //devuelve 0 si el valor de order no es 'asc' ni 'des'
-    //mantiendo el orden original
+    // Devuelve 0 si el valor de order no es 'asc' ni 'des'
+    // manteniendo el orden original
     return 0;
   });
 }

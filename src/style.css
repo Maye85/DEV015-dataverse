@@ -1,6 +1,5 @@
-/* Estilo para el contenedor principal que usa Flexbox */
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
   
 
 html {
@@ -30,7 +29,7 @@ h1{
 
 h2 {
   text-align: center;
-  font-family: 'Handlee', cursive;
+  font-family: 'Montserrat', cursive;
   font-size: 25px;
   font-weight: 300;
   margin-top: -40px;
@@ -45,16 +44,14 @@ h2 {
   color: rgb(58, 7, 105);
   max-width: 300px; /* Ancho máximo del formulario */
   margin: 0 auto; /* Centra el formulario horizontalmente */
-  display: flex; /* Utiliza flexbox para controlar la disposición */
-  flex-direction: column; /* Alineación vertical de los elementos */
-
+  
 }
 #family-filter{
-  font-family: 'Handlee', cursive;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
   font-size: 15px;
 }
 #alfabetico {
-  font-family: 'Handlee', cursive;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
 }
 
@@ -66,7 +63,7 @@ button {
   border: none; /* Sin borde */
   border-radius: 10px; /* Bordes redondeados */
   cursor: pointer; /* Cursor al pasar por encima */
-  font-size: 2rem; /* Tamaño de la fuente */
+  font-size: 20px; /* Tamaño de la fuente */
   text-align: center; /* Alineación del texto */
   width: 120px; /* O puedes establecer un ancho específico */
   padding: 5px 5px; /* Ajusta el padding para reducir el espacio a los lados */
@@ -78,58 +75,77 @@ label{
   margin-bottom: 10px;
 }
 
-.listaDeCarac {
+/* Otros estilos se mantienen igual */
+
+.flex-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+  justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+#character-list {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten a una nueva línea si no caben en una sola fila */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  padding: 0;
+  margin: 0;
+  list-style: none; /* Elimina los estilos de lista por defecto */
 }
 
 /* Estilo para los elementos de la lista */
 .personajes {
-  flex: 1 1 200px; /* El tamaño base de los elementos de la lista será de 200px */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-family: 'Montserrat';
+  width: 200px; /* Ancho fijo para las tarjetas */
+  height: auto; /* Ajustar altura automáticamente */
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 10px; /* Ajustar el padding si es necesario */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  background-color: rgba(138, 76, 153, 0.774) ;
+  background-color: rgba(138, 76, 153, 0.774);
   transition: transform 0.3s;
-  color:#fcf7f7;
+  color: #fcf7f7;
+  margin: 10px; /* Añade margen alrededor de cada tarjeta */
+  display: flex;
+  flex-direction: column; /* Para que los elementos hijos se alineen verticalmente */
+  justify-content: space-between; /* Espacio entre los elementos para asegurar una distribución uniforme */
 }
+
+/* Otros estilos se mantienen igual */
+
+
 h3{
   font-family: 'Niconne', cursive;
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: 30px;
+  font-weight:lighter;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 4px rgb(60, 9, 70); /* Línea exterior al texto */
+  margin: 0; /* Elimina el margen para asegurar una altura consistente */
+  text-align: center;
 }
 
 p{
-  font-family: 'Handlee', cursive;
+  font-family: 'Montserrat';
+  font-weight: 400;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 4px rgb(60, 9, 70); /* Línea exterior al texto */
+  margin: 0; /* Elimina el margen para asegurar una altura consistente */
 }
 
-.personajes:hover { /*hace que las tarjetas se levanten*/
+.personajes:hover { /hace que las tarjetas se levanten/
   transform: scale(1.05);
 }
 
 /* Estilo para las imágenes */
 .personajes img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  object-fit: cover;
   border-radius: 5px;
   margin-bottom: 10px;
-}
+  }
 
 footer {
   font-size: x-large;
   text-align: center;
   border: 1px solid #cccccc0c;
   margin:auto;
-  padding: 1px;
 }
-
