@@ -1,57 +1,22 @@
-export const renderItems = (data) => {
-  
-  // Crear un elemento <ul> con una clase específica
-  const ulElement = document.createElement('ul');
-  ulElement.id = 'character-list';
+export function renderItems(characters) {
+  const characterList = document.querySelector('#character-list');
+  characterList.innerHTML = ''; // Limpiar lista antes de renderizar nuevos personajes
 
-  // Recorrer la data y crear un elemento <li> por cada entrada
-  data.forEach(item => {
-    const liElement = document.createElement('li');
-    
-    liElement.setAttribute('itemtype', 'http://schema.org/Person');
-    liElement.setAttribute('itemscope', '');
-    liElement.id = 'character-item';
-    //establece el contenido HTML de un elemento
+  characters.forEach(character => {
+    const liElement = document.createElement('li'); // Crear un elemento <li> por cada personaje
+    liElement.classList.add('personajes');
+    liElement.setAttribute('itemscope', ''); // Añadir el atributo itemscope
+    liElement.setAttribute('itemtype', 'https://schema.org/Thing'); // Añadir el atributo itemtype
+    liElement.setAttribute("data-id", character.id);
+
     liElement.innerHTML = `
-       <article> 
-       <img src="${item.imageUrl}" alt="${item.name}" class="character-image">
-       <ul itemscope itemtype="http://schema.org/Person"> 
-         <li itemscope itemtype="http://schema.org/Person">
-         <spam itemprop="name">Nombre: ${item.name}</span>
-         </li>
-         <li itemscope itemtype="http://schema.org/Person">
-         <spam itemprop="family">Nombre: ${item.facts.familia}</span>
-         </li>
-         <li itemscope itemtype="http://schema.org/Person">
-         <spam itemprop="age">Edad: ${item.facts.edad}</span>
-         </li> 
-
-         <li itemscope itemtype="http://schema.org/Person">
-         <spam itemprop="maritalStatus">Situación Sentimental: ${item.facts.sitSentimental}</span>
-         </li>
-
-         <li itemscope itemtype="http://schema.org/Person">
-         <spam itemprop="spouse">Pareja: ${item.facts.pareja}</span>
-         </li>
-
-       </ul> 
-       <dl> 
-         <dt>Descripción Corta:</dt> <dd itemprop="description">${item.shortDescription}</dd>
-         <dt>Descripción:</dt> <dd itemprop="description">${item.description}</dd>
-         <p>Diferencias libros - serie</p> 
-         <dt>Libro:</dt> <dd itemprop="book">${item.extraInfo.libro}</dd>
-         <dt>Serie:</dt> <dd itemprop="series">${item.extraInfo.serie}</dd>
-       </dl> 
-      
-      </article>
-   
+      <h3>${character.name}</h3>
+      <img src="${character.imageUrl}" alt="${character.name}" />
+      <p>${character.shortDescription}</p>
     `;
-    //crear los elementos de la lista y agregarlos al HTML
-    ulElement.appendChild(liElement);
+
+    characterList.appendChild(liElement); // Añadir el <li> al <ul> existente
   });
 
-  // Retornar el elemento <ul>
-  return ulElement;
+  return characterList;
 }
-//revisar error de <ul> y <li> 
-
