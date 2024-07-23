@@ -2,7 +2,7 @@ export const characters = [
   {
     "id": "daphne-bridgerton",
     "name": "Daphne Bridgerton",
-    "shortDescription": "La cuarta de los Bridgerton, una joven encantadora y decidida que busca un matrimonio por amor.",
+    "shortDescription": "La cuarta de los Bridgerton, una joven encantadora.", //y decidida que busca un matrimonio por amor.",
     "description": "Daphne Bridgerton, la cuarta de los hermanos Bridgerton y la mayor de las hermanas, es una joven encantadora, decidida y de gran belleza. Con una educación impecable y un corazón noble, Daphne debuta en la sociedad londinense con la esperanza de encontrar un matrimonio basado en el amor verdadero. Su historia se centra en su relación con Simon Basset, el duque de Hastings, con quien entra en un acuerdo para fingir un cortejo que, inesperadamente, se transforma en una apasionada y real historia de amor. La perseverancia y bondad de Daphne la convierten en una protagonista entrañable y admirada.",
     "imageUrl": "https://i.postimg.cc/nrWHg3dY/1.jpg",
     "facts": {
@@ -19,7 +19,7 @@ export const characters = [
   {
     "id": "anthony-bridgerton",
     "name": "Anthony Bridgerton",
-    "shortDescription": "El mayor de los Bridgerton, responsable y protector, lucha entre el deber y el deseo.",
+    "shortDescription": "El mayor de los Bridgerton, responsable y protector.",//, lucha entre el deber y el deseo.",
     "description": "Anthony Bridgerton, el primogénito de la familia Bridgerton, es el visconde y cabeza de la familia tras la muerte de su padre. Responsable y protector, Anthony asume con seriedad sus deberes hacia sus hermanos y el legado familiar. Sin embargo, detrás de su fachada estoica, Anthony es un hombre apasionado que lucha con su miedo al compromiso debido a la muerte prematura de su padre. Su relación con Kate Sheffield (Kate Sharma en la serie) es un torbellino de emociones, llena de conflictos y una intensa atracción que desafía sus propios miedos y expectativas.",
     "imageUrl": "https://i.postimg.cc/50n9q4Lr/2.jpg",
     "facts": {
@@ -36,7 +36,7 @@ export const characters = [
   {
     "id": "colin-bridgerton",
     "name": "Colin Bridgerton",
-    "shortDescription": "El tercer hijo de la familia Bridgerton, conocido por su carisma y encanto irresistible.",
+    "shortDescription": "El tercer hijo Bridgerton, carismatico y encantador.",// y encanto irresistible.",
     "description": "Colin Bridgerton, el tercero en la línea de los hermanos Bridgerton, es un joven apuesto y carismático que se destaca por su personalidad encantadora y aventurera. Siempre dispuesto a recorrer el mundo y explorar nuevos horizontes, Colin posee un espíritu inquieto y una sonrisa que desarma a cualquiera. Aunque disfruta de las fiestas y la vida social londinense, también alberga un profundo deseo de encontrar su verdadero propósito en la vida. Su relación con Penelope Featherington añade una capa de complejidad y emoción a su historia.",
     "imageUrl": "https://i.postimg.cc/bYVNZvzD/3.jpg",
     "facts": {
@@ -53,7 +53,7 @@ export const characters = [
   {
    "id": "benedict-bridgerton",
     "name": "Benedict Bridgerton",
-    "shortDescription": "Un encantador y talentoso artista, segundo hijo de la familia Bridgerton",
+    "shortDescription": "El segundo hijo, un encantador y talentoso artista.",// de la familia Bridgerton",
     "description": "Benedict Bridgerton es el segundo hijo de la familia Bridgerton, conocido por su encanto natural y talento artístico. En la serie de Netflix Bridgerton, se presenta como un alma libre, explorando su pasión por el arte y cuestionando las normas sociales de la época. Su búsqueda de identidad y amor lo lleva a situaciones intrigantes y románticas, siempre con un toque de humor y elegancia. Su personaje destaca por su sensibilidad y su deseo de encontrar un lugar donde pueda ser verdaderamente él mismo, lejos de las expectativas sociales.",
     "imageUrl": "https://i.postimg.cc/6qqWMkhp/4.jpg",
     "facts": {
@@ -70,7 +70,7 @@ export const characters = [
   {
    "id": "eloise-bridgerton",
     "name": "Eloise Bridgerton",
-    "shortDescription": " Una joven inteligente y decidida, hermana de Daphne y crítica de las normas sociales.",
+    "shortDescription": " Una joven inteligente y decidida, hermana de Daphne.",// y crítica de las normas sociales.",
     "description": "Eloise Bridgerton es la quinta hija de la familia Bridgerton, conocida por su inteligencia aguda y su espíritu independiente. A diferencia de sus hermanas, Eloise muestra poco interés en casarse y conformarse con los roles tradicionales de la sociedad londinense de la Regencia. En la serie, se la presenta como una joven curiosa y crítica, que busca más allá de los límites impuestos por su género y su posición social. Su personalidad desafiante y su sentido del humor la convierten en una figura destacada, siempre en busca de conocimiento y autodeterminación.",
     "imageUrl": "https://i.postimg.cc/15gRwZtW/5.jpg",
     "facts": {
@@ -121,7 +121,7 @@ export const characters = [
   {
     "id": "gregory-bridgerton",
     "name": "Gregory Bridgerton",
-    "shortDescription": "El hijo menor de los Bridgerton, romántico y con un corazón lleno de esperanza.",
+    "shortDescription": "El menor de los Bridgerton, romántico y lleno de esperanza.",
     "description": "Gregory Bridgerton es el séptimo hijo y el menor de los varones en la familia Bridgerton. En los libros de Julia Quinn, Gregory es retratado como un joven romántico e idealista, con una firme creencia en el amor verdadero, no tiene dudas sobre la importancia del amor en el matrimonio. Su historia comienza cuando se enamora a primera vista de Hermione Watson, pero pronto se da cuenta de que la verdadera mujer para él es Lady Lucinda Abernathy (Lucy). Lucy, quien está comprometida con otro hombre, también empieza a desarrollar sentimientos por Gregory, pero se enfrenta a numerosos obstáculos.",
     "imageUrl": "https://i.postimg.cc/jjktLgTV/8.jpg",
    "facts": {
@@ -138,7 +138,7 @@ export const characters = [
   {
     "id": "violet-bridgerton",
     "name": "Violet Bridgerton",
-    "shortDescription": "Matriarca sabia y cariñosa de la familia Bridgerton, guía y apoyo constante para sus hijos.",
+    "shortDescription": "Matriarca sabia y cariñosa de la familia Bridgerton.",// guía y apoyo constante para sus hijos.",
     "description": "Violet Bridgerton es la viuda del vizconde Edmund Bridgerton y la matriarca de la influyente familia Bridgerton. Su papel va más allá de las convenciones sociales de la Regencia; es una madre amorosa y protectora, siempre dispuesta a ofrecer consejos y apoyo emocional a sus hijos. A lo largo de la serie, se ve su influencia en las vidas de sus hijos, fomentando en ellos el valor del amor verdadero y la importancia de la familia. Su habilidad para balancear las responsabilidades familiares y sociales la convierten en una figura central y muy querida en la saga Bridgerton.",
     "imageUrl": "https://i.postimg.cc/hjzgxL4X/9.jpg",
    "facts": {
@@ -155,7 +155,7 @@ export const characters = [
   {
     "id": "penelope-featherington",
     "name": "Penelope Featherington",
-    "shortDescription": "Inteligente, perspicaz y compasiva, con un secreto sorprendente que oculta bajo una apariencia tímida.",
+    "shortDescription": "Inteligente, perspicaz y compasiva, con un secreto sorprendente.",// que oculta bajo una apariencia tímida.",
     "description": "Penelope es la hija menor de la familia Featherington, conocida por su naturaleza reservada y su inteligencia aguda. Es una joven dulce y observadora que ha pasado la mayor parte de su vida enamorada en secreto de Colin Bridgerton. Su apariencia modesta y su posición en la sociedad como una Featherington la hacen pasar desapercibida para muchos, pero Penelope tiene una vida interior rica y compleja. Es la autora secreta de las columnas de chismes de Lady Whistledown. Su relación con Colin evoluciona de una amistad a un amor profundo.",
     "imageUrl": "https://i.postimg.cc/PxgHMCN2/10.jpg",
    "facts": {
@@ -173,7 +173,7 @@ export const characters = [
   {
    "id": "portia-featherington",
     "name": "Portia Featherington ",
-    "shortDescription": "La ambiciosa y manipuladora matriarca de los Featherington, siempre buscando mejorar la posición social de su familia.",
+    "shortDescription": "La ambiciosa y manipuladora matriarca de los Featherington.",// siempre buscando mejorar la posición social de su familia.",
     "description": "Portia Featherington es la madre de la familia Featherington, conocida por su ambición desmedida y su carácter manipulador. Es una mujer decidida a asegurar buenos matrimonios para sus hijas, a menudo sin considerar sus sentimientos o deseos. No duda en utilizar tácticas cuestionables para alcanzar sus objetivos, lo que a menudo la pone en conflicto con otras familias de la alta sociedad. A pesar de su aparente dureza, su determinación surge de un deseo genuino de proteger y proveer para sus hijas en un mundo donde la seguridad de una mujer depende de un buen matrimonio.",
     "imageUrl": "https://i.postimg.cc/cCfSkdnZ/11.jpg",
    "facts": {
@@ -190,7 +190,7 @@ export const characters = [
   {
     "id": "prudence-featherington",
     "name": "Prudence Featherington",
-    "shortDescription": "Hija mayor de los Featherington, conocida por su personalidad llamativa y sus intentos fallidos de encontrar un buen matrimonio.",
+    "shortDescription": "Hija mayor de los Featherington, conocida por su personalidad.",// llamativa y sus intentos fallidos de encontrar un buen matrimonio.",
     "description": "Prudence Featherington es la hija mayor de la familia Featherington y se destaca por su personalidad extravagante y su falta de éxito en el matrimonio, es frecuentemente vista como poco agraciada y socialmente inepta, lo que la convierte en un desafío constante para su madre, tiene una disposición llamativa y a veces ridícula, lo que la convierte en el centro de muchas situaciones cómicas. A pesar de sus limitaciones sociales, Prudence posee una lealtad inquebrantable a su familia y un deseo genuino de encontrar amor y aceptación, a menudo resalta las tensiones y las presiones dentro de la familia Featherington.",
     "imageUrl": "https://i.postimg.cc/SQ9kxft5/12.jpg",
    "facts": {
@@ -207,7 +207,7 @@ export const characters = [
   {
     "id": "philippa-featherington",
     "name": "Philippa Featherington",
-    "shortDescription": "Segunda hija de los Featherington, ingenua y sencilla, a menudo opacada por su familia.",
+    "shortDescription": "Segunda hija de los Featherington, ingenua y sencilla.",// a menudo opacada por su familia.",
     "description": "Philippa Featherington es la segunda hija de la familia Featherington, conocida por su naturaleza ingenua y su disposición sencilla. En los libros de Julia Quinn, Philippa es a menudo un personaje secundario que vive a la sombra de sus hermanas Prudence y Penelope. Su madre, aunque Philippa no tiene la misma presión que Prudence debido a su temperamento más dócil. Ella es representada como un tanto simple y superficial, con intereses más limitados a las trivialidades sociales que a los asuntos más profundos. A pesar de su falta de sofisticación, Philippa muestra una bondad y lealtad incondicionales hacia su familia.",
     "imageUrl": "https://i.postimg.cc/hPqgzQkG/13.jpg",
    "facts": {
@@ -224,7 +224,7 @@ export const characters = [
   {
     "id": "archibald-featherington",
     "name": "Archibald Featherington",
-    "shortDescription": "Patriarca de los Featherington, un hombre con vicios y decisiones cuestionables.",
+    "shortDescription": "Patriarca de los Featherington, un hombre con vicios.",// y decisiones cuestionables.",
     "description": "Lord Archibald Featherington es el cabeza de la familia Featherington, un hombre cuya gestión de la fortuna familiar es, en el mejor de los casos, desafortunada. Su comportamiento irresponsable y su incapacidad para manejar adecuadamente las finanzas de la familia ponen a su esposa, Portia, y a sus hijas en una posición vulnerable y desesperada en la alta sociedad londinense. A pesar de ser una figura paterna, su influencia es más negativa que positiva, contribuyendo al caos y la inseguridad en la vida de los Featherington.",
     "imageUrl": "https://i.postimg.cc/SN74WN4f/14.jpg",
    "facts": {
@@ -241,7 +241,7 @@ export const characters = [
   {
     "id": "simon-basset",
     "name": "Simon Basset",
-    "shortDescription": "Duque de Hastings, apuesto y torturado, lucha con su pasado mientras encuentra el amor.",
+    "shortDescription": "Duque de Hastings, apuesto y torturado, lucha con su pasado.",// mientras encuentra el amor.",
     "description": "Simon Basset, conocido como el Duque de Hastings, Simon es un hombre atractivo, carismático y con un pasado traumático que le ha dejado profundas cicatrices emocionales. Rechazado y desatendido por su padre debido a su tartamudez en la infancia, Simon decide vengarse prometiendo no casarse ni tener hijos, con el fin de extinguir el linaje familiar. Su vida da un giro cuando conoce a Daphne Bridgerton y se ve envuelto en un plan para ayudarla a mejorar su posición matrimonial fingiendo un cortejo. Sin embargo, lo que comienza como una farsa se convierte en un amor verdadero.",
     "imageUrl": "https://i.postimg.cc/jSxbv0d0/15.jpg",
    "facts": {
@@ -258,7 +258,7 @@ export const characters = [
   {
     "id": "lady-danbury",
     "name": "Lady Danbury",
-    "shortDescription": "Mujer formidable y astuta, conocida por su ingenio mordaz y su influencia social.",
+    "shortDescription": "Mujer formidable y astuta, conocida por su ingenio mordaz.",// y su influencia social.",
     "description": "Lady Danbury es una de las figuras más destacadas y queridas. Es una mujer mayor, viuda y de gran riqueza, conocida por su lengua afilada, su ingenio mordaz y su aguda percepción lo que la convierte en una figura tanto temida como respetada en la alta sociedad. A pesar de su exterior duro, tiene un corazón de oro y muestra una notable lealtad y afecto hacia aquellos que ganan su respeto. Lady Danbury también es conocida por su filantropía y su apoyo a causas nobles, a menudo utilizando su influencia para el bien social.",
     "imageUrl": "https://i.postimg.cc/kgTdp1BV/16.jpg",
    "facts": {
@@ -275,7 +275,7 @@ export const characters = [
   {
     "id": "reina-charlotte",
     "name": "Reina Charlotte",
-    "shortDescription": "Monarca influyente y sofisticada, con una notable afición por el cotilleo y la manipulación de la alta sociedad londinense.",
+    "shortDescription": "Monarca influyente y sofisticada, con una notable afición.",// por el cotilleo y la manipulación de la alta sociedad londinense.",
     "description": "La reina Charlotte, nacida como Charlotte de Mecklemburgo-Strelitz, se convirtió en la reina consorte de Gran Bretaña tras su matrimonio con el rey Jorge III. Su reinado se destacó por su patronazgo en las artes y su papel fundamental en la vida cortesana. Reconocida por su fuerte personalidad y su amor por la música y la botánica, su influencia se extendió más allá del trono, impactando la moda y la sociedad de su tiempo. Su vida, sin embargo, no estuvo exenta de desafíos, incluyendo la enfermedad de su esposo y las tensiones políticas de la época.",
     "imageUrl": "https://i.postimg.cc/PqNksWwS/17.jpg",
    "facts": {
@@ -292,7 +292,7 @@ export const characters = [
   {
     "id": "marina-thompson",
     "name": "Marina Thompson",
-    "shortDescription": "Joven noble, prima de los Featherington, enfrentada a un embarazo no deseado que desafía las normas sociales.",
+    "shortDescription": "Joven noble, prima de los Featherington, enfrentada.",// a un embarazo no deseado que desafía las normas sociales.",
     "description": "Marina Thompson es una joven hermosa y noble que se encuentra en una situación escandalosa al descubrir que está embarazada fuera del matrimonio. Invitada a vivir con la familia Featherington, Marina se convierte rápidamente en el centro de rumores y conspiraciones. Su historia está marcada por la desesperación y el deseo de asegurar un futuro para su hijo, lo que la lleva a tomar decisiones difíciles y manipuladoras. Marina es un personaje complejo, que lucha contra las restricciones de su tiempo y las expectativas de la sociedad.",
     "imageUrl": "https://i.postimg.cc/zfMYJyw8/18.jpg",
    "facts": {
@@ -309,7 +309,7 @@ export const characters = [
   {
     "id": "siena-rosso",
     "name": "Siena Rosso",
-    "shortDescription": "Cantante de ópera apasionada y talentosa, amante del apuesto Anthony Bridgerton, pero enfrentada a las barreras sociales.",
+    "shortDescription": "Cantante de ópera apasionada y talentosa, amante del apuesto.",// Anthony Bridgerton, pero enfrentada a las barreras sociales.",
     "description": "Siena Rosso es una destacada cantante de ópera, cuya belleza y talento la convierten en una figura fascinante en los círculos sociales de Londres. Su relación apasionada y complicada con Anthony Bridgerton está marcada por el amor y la lucha contra las rígidas barreras de clase. A pesar de su amor profundo, Siena comprende que su posición como artista y su origen humilde dificultan un futuro juntos. Su carácter es fuerte y decidido, y a lo largo de la serie muestra una vulnerabilidad conmovedora mientras navega por los desafíos del amor prohibido y la sociedad de su tiempo.",
     "imageUrl": "https://i.postimg.cc/hjdWhKMx/19.jpg",
    "facts": {
@@ -326,7 +326,7 @@ export const characters = [
   {
   "id": "will-mondrich",
     "name": "Will Mondrich",
-    "shortDescription": "Boxeador talentoso y carismático, amigo cercano de Simon Basset, luchando por mantener su honor y su familia.",
+    "shortDescription": "Boxeador talentoso y carismático, amigo cercano de.",// Simon Basset, luchando por mantener su honor y su familia.",
     "description": "Will Mondrich es un boxeador fuerte y carismático que se gana la vida en los combates del mundo subterráneo de Londres. Como amigo cercano del duque de Hastings, Simon Basset, Will muestra lealtad y valor. Su amor por su esposa y sus hijos impulsa su deseo de tener éxito en un deporte brutal y peligroso. A lo largo de la serie, enfrenta decisiones difíciles que ponen a prueba su integridad y determinación, mientras lucha por mantener su honor y asegurar un futuro mejor para su familia en un entorno lleno de desafíos.",
     "imageUrl": "https://i.postimg.cc/QCZLTvnz/20.jpg",
    "facts": {
@@ -343,7 +343,7 @@ export const characters = [
   {
     "id": "genevieve-delacroix",
     "name": "Genevieve Delacroix",
-    "shortDescription": "Modista francesa astuta y encantadora, se infiltra en la alta sociedad londinense con sus habilidades de costura y su ingenio.",
+    "shortDescription": "Modista francesa astuta y encantadora, se infiltra en la alta sociedad.",// londinense con sus habilidades de costura y su ingenio.",
     "description": "Genevieve Delacroix es una modista francesa talentosa, conocida por sus diseños elegantes y su habilidad para confeccionar los vestidos más deseados de la alta sociedad londinense. Propietaria de la tienda Modiste, se convierte en una figura clave en los círculos sociales, aprovechando su acceso a las damas de la aristocracia para obtener información y rumores valiosos. Genevieve es astuta y encantadora, utilizando su posición para influir sutilmente en los eventos y las modas de la temporada. Su carácter muestra una combinación de ambición y vulnerabilidad, mientras navega por los desafíos de mantener su negocio y su reputación.",
     "imageUrl": "https://i.postimg.cc/zG8JMH7Q/21.jpg",
    "facts": {
@@ -363,7 +363,7 @@ export const characters = [
   {
     "id": "phillip-crane",
     "name": "Sir Phillip Crane",
-    "shortDescription": "Viudo honorable y botánico, dedicado a sus hijos y en busca de un nuevo amor.",
+    "shortDescription": "Viudo honorable y botánico, dedicado a sus hijos.",// y en busca de un nuevo amor.",
     "description": "Sir Phillip Crane es un hombre noble y serio, dedicado a su amado trabajo como botánico y a la crianza de sus dos hijos gemelos, tras la muerte de su esposa, Marina Thompson vuelve a casarse con Eloise Bridgerton. A pesar de su apariencia reservada, Phillip es un hombre con un corazón amable y un deseo profundo de encontrar una nueva compañera que le ayude a criar a sus hijos y que le brinde el amor y la felicidad que ha estado buscando.",
     "imageUrl": "https://i.postimg.cc/gcVQ7S7Y/22.jpg",
    "facts": {
@@ -380,7 +380,7 @@ export const characters = [
   {
     "id": "cressida-cowper",
     "name": "Cressida Cowper",
-    "shortDescription": "Dama aristocrática, ambiciosa y manipuladora, siempre en busca de la ventaja social y el prestigio.",
+    "shortDescription": "Dama aristocrática, ambiciosa y manipuladora.",// siempre en busca de la ventaja social y el prestigio.",
     "description": "Cressida Cowper es una joven aristócrata conocida por su belleza, pero también por su naturaleza ambiciosa y calculadora. Siempre a la caza de oportunidades para mejorar su posición social, Cressida no duda en utilizar cualquier medio a su disposición, incluidos los chismes y las intrigas. Su rivalidad con Daphne Bridgerton y otras debutantes la lleva a participar en juegos de poder y manipulación. Su determinación y astucia demuestran que es una competidora formidable en la alta sociedad londinense. Su carácter refleja las presiones y expectativas de su clase, mostrando una faceta menos romántica y más pragmática de la vida aristocrática.",
     "imageUrl": "https://i.postimg.cc/wT9ZY5KD/23.jpg",
    "facts": {
@@ -397,7 +397,7 @@ export const characters = [
   {
     "id": "henry-granville",
     "name": "Henry Granville",
-    "shortDescription": "Artista talentoso y refinado, atrapado en un matrimonio sin amor mientras oculta su verdadera identidad sexual.",
+    "shortDescription": "Artista talentoso y refinado, atrapado en un matrimonio sin amor.",// mientras oculta su verdadera identidad sexual.",
     "description": "Henry Granville es un artista carismático y sofisticado, conocido por su talento y capacidad para capturar la belleza en sus obras. Sin embargo, detrás de su éxito profesional, Granville lleva una vida marcada por la tensión y el secreto, se encuentra atrapado en un matrimonio sin amor, mientras que su verdadero amor y su identidad sexual permanecen ocultos debido a las restricciones sociales de la época. Su amistad con Benedict Bridgerton ofrece una ventana a su mundo interior, revelando su lucha por la autenticidad y el amor en una sociedad que no permite la expresión libre de su verdadera naturaleza.",
     "imageUrl": "https://i.postimg.cc/NFknrFXy/24.jpg",
    "facts": {
