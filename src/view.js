@@ -12,6 +12,8 @@ export function renderItems(characters) {
     liElement.innerHTML = `
       <h3>${character.name}</h3>
       <img src="${character.imageUrl}" alt="${character.name}" />
+      <p>Edad: ${character.facts.edad}</p>
+      <p>Situcación Sentimental: ${character.facts.sitSentimental}</p>
       <p>${character.shortDescription}</p>
     `;
 

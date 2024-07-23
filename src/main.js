@@ -2,8 +2,8 @@ import { filterCharactersByFamily, sortCharactersByName, getCharacters } from '.
 import { renderItems } from './view.js';
 
 function init() {
-  const familyFilter = document.getElementById('family-filter');
-  const sortFilter = document.getElementById('alfabetico');
+  const familyFilter = document.querySelector('#family-filter');
+  const sortFilter = document.querySelector('#alfabetico');
   const clearButton = document.querySelector('[data-testid="button-clear"]');
 
   // Renderizar todos los personajes inicialmente
