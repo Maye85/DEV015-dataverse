@@ -1,3 +1,4 @@
+import {characters} from './data/dataset.js';
 import { filterCharactersByFamily, sortCharactersByName, getCharacters } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
@@ -15,8 +16,17 @@ function init() {
   });
 
   sortFilter.addEventListener('change', () => {
-    const sortedCharacters = sortCharactersByName(sortFilter.value);
-    renderItems(sortedCharacters);
+    const filteredCharacters = filterCharactersByFamily(familyFilter.value);
+    let datafilter;
+    if (familyFilter.value=== ""){
+      console.log (familyFilter.value)
+    datafilter = sortCharactersByName(characters, "name", sortFilter.value);
+    console.log (datafilter)
+  }
+  else{
+    datafilter = sortCharactersByName(filteredCharacters, "name", sortFilter.value);
+  }
+  renderItems(datafilter)
   });
 
   clearButton.addEventListener('click', () => {

@@ -10,14 +10,14 @@
     <header>
         <img src="lady_whistledown-sin fondo.png">
         <h1>Los Bridgerton</h1>
-    </header>
-    
+        <h2>¡Descubre sus más escandalosos secretos!</h2>
+    </header> 
     <main>
         <section>
-            <h2>¡Descubre sus más escandalosos secretos!</h2>
             <form id="filter-form">
                 <label for="family-filter" id="famFilter">Filtrar por:</label>
                 <select id="family-filter" data-testid="select-filter" name="familyFilter">
+                    <option value=""> </option>
                     <option value="bridgerton">Bridgerton</option>
                     <option value="featherington">Featherington</option>
                     <option value="basset">Basset</option>
@@ -31,6 +31,7 @@
                 </select>
                 <label for="alfabetico" id="alfabe">Ordenar por:</label>
                   <select id="alfabetico" data-testid="select-sort" name="alfabetico">
+                    <option value=""> </option>
                     <option value="asc">Ordenar A-Z</option>
                     <option value="des">Ordenar Z-A</option>
                   </select>   
@@ -42,18 +43,15 @@
         <div class="flex-container">
             <section id="root">
                 <ul id="character-list" class="listaDeCarac">
-                    
                         <!-- Aquí se insertarán los elementos renderizados -->
                 </ul>
             </section>
         </div>  
-    </main>
-    
-   
+        </main>
     <script type="module" src="./main.js"></script>
 </body>
 <footer>
-    <h4>Dev 13</h4>
-    <h4>Lisette Piña - Mayerling Hernandez</h4>       
+    <p class="piepagina">Dev 13</p>
+    <p class="piepagina">Lisette Piña - Mayerling Hernandez</p>       
 </footer>
 </html>

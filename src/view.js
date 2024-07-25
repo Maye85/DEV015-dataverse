@@ -13,7 +13,7 @@ export function renderItems(characters) {
       <h3>${character.name}</h3>
       <img src="${character.imageUrl}" alt="${character.name}" />
       <p>Edad: ${character.facts.edad}</p>
-      <p>Situcación Sentimental: ${character.facts.sitSentimental}</p>
+      <p>Situación Sentimental: ${character.facts.sitSentimental}</p>
       <p>${character.shortDescription}</p>
     `;
 
