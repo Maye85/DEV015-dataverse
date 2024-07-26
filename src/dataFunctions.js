@@ -37,3 +37,22 @@ export function filterAndSortCharacters(family, order) {
 export function getCharacters() {
   return characters;
 }
+//exportamos la data (arreglo) al main
+export function calcularEstadisticas(data) {
+  //data es el arreglo sobre el cual estamos aplicando el método
+  //acc(objeto) es el valor acumulado que se va actualizando en cada iteración
+  //current es el elemento actual del arreglo que está siendo procesado 
+  return data.reduce((acc, current) => {
+    
+    const sitSentimental = current.facts.sitSentimental;
+    if (acc[sitSentimental]) {
+      //si el sitSentimental coincide suma 1 en cada iteracion
+      acc[sitSentimental]++;
+    } else {
+      //sino solo queda en 1
+      acc[sitSentimental] = 1;
+    }
+    //en cualquiera de los casos retorna lo acumulado
+    return acc;
+  }, {});
+}
