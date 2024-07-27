@@ -7,6 +7,9 @@ function init() {
   const sortFilter = document.querySelector('#alfabetico');
   const clearButton = document.querySelector('[data-testid="button-clear"]');
   const botonCalcularEstadisticas = document.querySelector('#calcularEstadisticas');
+  const resultadoEstadisticas = document.querySelector('#resultado-estadisticas');
+
+  resultadoEstadisticas.style.display = 'none';
   // busca la data sino que la prepara para ser usada
   renderItems(getCharacters());
 
@@ -39,11 +42,16 @@ function init() {
   });
   //creamos el metodo addEventListener y el manejador de evento clic
   botonCalcularEstadisticas.addEventListener('click', () => {
-    //calcularEstadisticas se encuentra en el dataFuntion
     const stats = calcularEstadisticas(getCharacters());
-    console.log(stats);
+    resultadoEstadisticas.innerHTML = `
+      <p>Casados: ${stats.casados}</p>
+      <p>Solteros: ${stats.solteros}</p>
+      <p>Viudos: ${stats.viudos}</p>
+      <p>Amantes: ${stats.amantes}</p>
+    `;
+    // Mostrar el contenedor de resultados
+    resultadoEstadisticas.style.display = 'flex'; // Mostrar el contenedor
   });
 }
 
-// Llamar a la función init() cuando el DOM esté completamente cargado
 document.addEventListener('DOMContentLoaded', init);

@@ -185,11 +185,32 @@ footer{
  margin: 0 auto;
 
 }/*continuar el cuadro de resultados de estadisticas*/
-#resultado-estadisticas{
- border-radius: 5px;
 
-
+#resultado-estadisticas {
+  display: none; /* Ocultar por defecto */
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: rgba(138, 76, 153, 0.774);
+  display: flex; /* Usar flexbox para alinear los elementos en una línea */
+  justify-content: space-between; /* Espacio automático entre los elementos */
+  align-items: center; /* Alinear verticalmente en el centro si el contenedor tiene altura */
+  overflow-x: auto; /* Agregar una barra de desplazamiento horizontal si es necesario */
 }
+
+/* Estilo para los párrafos dentro del contenedor */
+#resultado-estadisticas p {
+  /*adapta el tamaño de la letra segun el tamaño de la pantalla*/
+  font-size: 5vw;
+  margin: 0; /* Eliminar el margen para evitar espacio adicional */
+  color: #f5f0f0;
+  font-family: 'Niconne', cursive;
+  white-space: nowrap; /* Evitar el ajuste de línea dentro de los párrafos */
+}
+
+
+
 
 @media (max-width: 768px) {
   header {
