@@ -140,12 +140,11 @@ p {
   text-shadow: 0.125rem 0.125rem 0.25rem rgb(60, 9, 70); /* línea exterior al texto */
   margin: 0.125rem; /* espacio exterior alrededor del texto */
   padding: 0.125rem; /* espacio interno alrededor del texto */
-
+{
 /*efectos especiales :p*/
 .personajes:hover { /*hace que las tarjetas se levanten*/
   transform: scale(1.05);/* aumenta el tamaño de la tarjeta en un 5% */
 } 
-}
 
 /* Estilo para las imágenes */
 .personajes img {
