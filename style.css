@@ -19,7 +19,7 @@ header {
   padding: 0.5rem; /* espacio interno alrededor del contenido */
   font-family: 'Niconne', cursive;
   font-size: 5vw; /*relativo al tamaño del viewport*/
-  background-image: url('fondo_canva.png'); /*imagen de fondo del encabezado*/ 
+  background-image: url(fondo_canva.png); /*imagen de fondo del encabezado*/ 
 }
 
 /*el filtro y el ordenar juntos*/
@@ -162,7 +162,7 @@ footer {
 }
 
 .piepagina {
-  font-size: 1.25rem; /* tamaño de fuente fijo en rem */
+  font-size: 1rem; /* tamaño de fuente fijo en rem */
   text-align: center;/* centra el texto en el pie de página */
   color: rgba(40, 3, 41, 0.795);
   font-family: 'Montserrat', sans-serif;
@@ -205,7 +205,7 @@ footer {
 /* Estilo para los párrafos dentro del contenedor */
 #resultado-estadisticas p {
   /*adapta el tamaño de la letra segun el tamaño de la pantalla*/
-  font-size: 5vw;/*tamaño de fuente relativo al ancho del viewport*/
+  font-size: 4.5vw;/*tamaño de fuente relativo al ancho del viewport*/
   margin: 0; /* elimina el margen para evitar espacio adicional */
   color: #f5f0f0;
   font-family: 'Niconne', cursive;
